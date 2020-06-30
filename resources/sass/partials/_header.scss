@@ -3,3 +3,31 @@
         height: 60px;
     }
 }
+
+#navbarSupportedContent {
+    ul {
+        li {
+            padding: 20px;
+
+            a {
+                &:hover {
+                    text-decoration: underline;
+                    text-decoration-color: green;
+                }
+            }
+        }
+    }
+}
+
+.myButton {
+    background-color: #44c767;
+    border-radius: 12px;
+    border: 1px solid #18ab29;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
