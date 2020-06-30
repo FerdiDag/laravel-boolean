@@ -10941,6 +10941,7 @@ body {
 .container {
   max-width: 1140px;
   margin: auto;
+  height: 100%;
 }
 
 #jumbotron {
@@ -10974,6 +10975,10 @@ body {
   font-size: 19px;
 }
 
+#privacy ul {
+  padding-left: 50px;
+}
+
 .navbar-brand img {
   height: 60px;
 }
@@ -10983,22 +10988,23 @@ body {
 }
 
 #navbarSupportedContent ul li a:hover {
-  text-decoration: underline;
-  -webkit-text-decoration-color: green;
-          text-decoration-color: green;
+  border-bottom: 1px solid #61ce4e;
 }
 
 .myButton {
-  background-color: #44c767;
-  border-radius: 12px;
-  border: 1px solid #18ab29;
-  display: inline-block;
+  background-color: #61ce4e;
+  border-radius: 5px;
+  border: 1px solid #61ce4e;
   cursor: pointer;
-  color: #ffffff;
-  font-family: Arial;
   font-size: 17px;
   padding: 10px 20px;
   text-decoration: none;
+  color: white;
+}
+
+.myButton:hover {
+  text-decoration: none;
+  color: white;
 }
 
 footer {
