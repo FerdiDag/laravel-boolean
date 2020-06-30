@@ -1,3 +1,47 @@
 footer {
     background-color: $sfondo-sezioni-blu;
+    color: $colore-testo-footer;
+    padding: 70px 0 30px;
+
+    img {
+        height: 60px;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    ul {
+        padding-top: 30px;
+        li {
+            list-style-type: none;
+
+            width: auto;
+        }
+
+        a {
+            color: $colore-testo-footer;
+
+            &:hover {
+                text-decoration: underline;
+                color: white;
+            }
+        }
+    }
+
+    .fab {
+        color: $colore-icone;
+        font-size: 36px;
+        padding: 20px;
+
+        &:hover {
+            color: green;
+        }
+    }
+
+    .container {
+        hr {
+            border: 1px solid white;
+        }
+    }
 }

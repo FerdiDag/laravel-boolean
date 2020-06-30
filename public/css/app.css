@@ -10939,7 +10939,7 @@ body {
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1140px;
   margin: auto;
 }
 
@@ -10949,5 +10949,47 @@ body {
 
 footer {
   background-color: #1b3c59;
+  color: white;
+  padding: 70px 0 30px;
+}
+
+footer img {
+  height: 60px;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer ul {
+  padding-top: 30px;
+}
+
+footer ul li {
+  list-style-type: none;
+  width: auto;
+}
+
+footer ul a {
+  color: white;
+}
+
+footer ul a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+footer .fab {
+  color: white;
+  font-size: 36px;
+  padding: 20px;
+}
+
+footer .fab:hover {
+  color: green;
+}
+
+footer .container hr {
+  border: 1px solid white;
 }
 

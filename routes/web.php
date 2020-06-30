@@ -18,8 +18,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home');
-})->name('homepage');
+})->name('home');
 
-// Route::get('/contattaci', function() {
-//     return view('privacy');
-// })->name('privacy-policy');
+Route::get('/privacy', function() {
+    return view('privacy');
+})->name('privacy');
