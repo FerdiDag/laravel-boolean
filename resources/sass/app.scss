@@ -1,0 +1,10 @@
+// import di bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+
+// import file parziali
+@import 'partials/_variables';
+@import 'partials/_common';
+@import 'partials/_header';
+@import 'partials/_footer';
