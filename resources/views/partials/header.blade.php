@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="{{ route('home') }}">
         <img src="{{ asset('images/logo.png') }}" alt="Boolean logo">
     </a>
@@ -8,7 +8,7 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
-            <li class="nav-item-home">
+            <li class="nav-item {{ Request::route()->getName() == 'home' ? 'active-l' :  '' }}">
                 <a class="nav-link" href="{{ route('home') }}">HOME</a>
             </li>
             <li class="nav-item">
@@ -24,7 +24,7 @@
             <li class="nav-item">
                 <a class="nav-link" href="">ASSUMI I NOSTRI STUDENTI</a>
             </li>
-            <li class="nav-item">
+            <li class="button">
                 <a href="#" class="myButton">CANDIDATI ORA</a>
             </li>
             {{-- <li class="nav-item dropdown">

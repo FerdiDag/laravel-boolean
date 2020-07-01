@@ -10945,7 +10945,7 @@ body {
 }
 
 #jumbotron {
-  padding: 80px 0;
+  padding: 190px 0;
   color: #1b3c59;
 }
 
@@ -10975,20 +10975,49 @@ body {
   font-size: 19px;
 }
 
+#privacy {
+  padding-top: 100px;
+}
+
 #privacy ul {
   padding-left: 50px;
+}
+
+#info {
+  background-color: #e8ebf1;
+  padding: 100px 0;
+}
+
+#info img {
+  height: 300px;
+}
+
+#info ul {
+  padding-left: 30px;
 }
 
 .navbar-brand img {
   height: 60px;
 }
 
-#navbarSupportedContent ul li {
+#navbarSupportedContent ul .nav-item {
   padding: 20px;
 }
 
-#navbarSupportedContent ul li a:hover {
-  border-bottom: 1px solid #61ce4e;
+#navbarSupportedContent ul .nav-item:hover {
+  border-bottom: 2px solid #61ce4e;
+}
+
+#navbarSupportedContent .active-l {
+  border-bottom: 2px solid #61ce4e;
+}
+
+#navbarSupportedContent .button {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  margin-top: 10px;
 }
 
 .myButton {

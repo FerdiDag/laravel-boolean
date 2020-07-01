@@ -197,7 +197,7 @@
 
 
 
-                <p>Per esercitare i Suoi dirittiappenaelencati,potrà inoltrarerichiesta all’indirizzo e-mail ciao@boolean.careers</p>
+                <p>Per esercitare i Suoi dirittiappenaelencati,potrà inoltrare richiesta all’indirizzo e-mail ciao@boolean.careers</p>
             </div>
         </div>
     </div>
